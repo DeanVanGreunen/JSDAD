@@ -8,9 +8,8 @@ JavaScript - Deans Anything Downloader
  - Full Control.
  
 ## The Function Usage Overview (Integration)
+Import the [JSDad.js](/jsdad.js) script
 ```javascript
-/* Import the [JSDad.js](/jsdad.js) script*/
-
 /* Call the Function Once JSDad.js has loaded*/
 AnythingDownloader(method, postdata, url, datatype, filename, mimetype, prevalidation, onprevalidationerror, postvalidation,  onpostvalidationerror);
 ```
