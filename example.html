@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>JSDad - Example #1</title>
+	<title>JSDad - Trusted Download</title>
     <style type="text/css">
+.button {
+    display: inline-block;
+}
+
 .button a {
   display: block;
   height: 50px;
-  width: 200px;
+  width: 360px;
   background: #00b7ea;
-  
   /*TYPE*/
   color: white;
   font: 17px/50px Helvetica, Verdana, sans-serif;
@@ -16,12 +19,13 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 p {
   background: #222;
   display: block;
   height: 40px;
-  width: 180px; 
-  margin: -50px 0 0 10px;
+  width: 300px;
+  margin: -50px 0 0 30px;
   
   /*TYPE*/
   text-align: center;
@@ -57,12 +61,13 @@ p {
           box-shadow: 2px 2px 8px rgba(0,0,0,0.2);      
 }
 .button:hover .top {
-  margin: -80px 0 0 10px;
+  margin: -80px 0 0 30px;
   line-height: 35px;
 }
  
+
 .button:hover .bottom {
-  margin: -10px 0 0 10px;
+  margin: -10px 0 0 30px;
 }
 /*Adjust Gradient*/
 .button a:active {
@@ -85,16 +90,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', end
 .button:active .top {
   margin: -70px 0 0 10px;
 }
-
 body {
-  text-align: center;
- }
-
-.wrapper {
-  text-align: left;
-  min-width: 800px;
-  margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
     </style>
 	<script type="text/javascript" src="https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/jsdad.js"></script>
 	<script type="text/javascript">
@@ -103,10 +109,10 @@ body {
 		    AnythingDownloader(
     	   	   	method='GET', 
     			postdata=null,
-   			 	url='https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/jsdad.html',
+   			 	url='https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/jsdad.js',
     			datatype='text',
-    			filename='example.html',
-    			mimetype='text/html',
+    			filename='JSDad.js',
+    			mimetype='text/javascript',
    			 	prevalidation=function(request, data){
     	    		/* pre validate data before connecting to server and or request and return a boolean value*/
     	    		return true;
@@ -128,11 +134,13 @@ body {
 	</script>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="button">
-            <a href="javascript:do_work();">Download</a>
-            <p class="top">click to begin</p>
-            <p class="bottom">2.85KB example.html</p>
+    <div class="center">
+        <div style="margin:20%;">
+            <div class="button">
+                <a href="javascript:do_work();">Trusted Download</a>
+                <p class="top">Click To Begin</p>
+                <p class="bottom">[2.85KB] <span style="color:lime;">JSDad.js</span> By <span style="color:yellow;">Dean Van Greunen</span></p>
+            </div>
         </div>
     </div>
 </body>
