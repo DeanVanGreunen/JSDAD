@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSDad - Example #1</title>
+	<script type="text/javascript" src="https://raw.githubusercontent.com/DeanVanGreunen/JSDAD/master/jsdad.js"></script>
+	<script type="text/javascript">
+	function do_work(){
+		AnythingDownloader(
+    			method='GET', 
+    			postdata=null,
+   			 	url='https://www.google.co.za/search?q=great%20white%20Sharks',
+    			datatype='text',
+    			filename='download.html',
+    			mimetype='text/html',
+   			 	prevalidation=function(request, data){
+    	    		/* pre validate data before connecting to server and or request and return a boolean value*/
+    	    		return true;
+    			},
+    			onprevalidationerror=function(request, data){
+    	   			/* Handle pre-validation Error*/
+    	    		return true;
+    			},
+    			postvalidation=function(request, data){ 
+    	    		/* post validate data before connecting to server and or request and return a boolean value*/
+    	    		return true;
+    			},
+    			onpostvalidationerror=function(request, data){
+    	    		/* Handle post-validation Error*/
+    	    		return true;
+    			}
+			);
+		};
+	</script>
+</head>
+<body>
+	<a href="javascript:do_work();">Do Work</a>
+</body>
+</html>
