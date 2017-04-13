@@ -3,7 +3,7 @@ JavaScript - Deans Anything Downloader
 
 ## Download Example:
 - [Download Example.html](https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/example.html)
-- [Download JSDad.js](https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/jsdad.js)
+- [Download JSDad.js](https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/jsdad.js) Small File Size: 2.85KB
 
 ## The What!
  - Simple, Light Weight, Standalone, Fast, Multi-Treading Safe, Multi Browser Support.
