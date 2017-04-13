@@ -1,6 +1,10 @@
 # JSDAD
 JavaScript - Deans Anything Downloader
 
+## Download Example:
+- [Download Example.html](https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/example.html)
+- [Download JSDad.js](https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/jsdad.js)
+
 ## The What!
  - Simple, Light Weight, Standalone, Fast, Multi-Treading Safe, Multi Browser Support.
  - Pre Data Validation, Post Data Validation.
@@ -13,6 +17,9 @@ Import the [JSDad.js](/jsdad.js) script
 /* Call the Function Once JSDad.js has loaded*/
 AnythingDownloader(method, postdata, url, datatype, filename, mimetype, prevalidation, onprevalidationerror, postvalidation,  onpostvalidationerror);
 ```
+### Note:
+if you would like to access another website.
+Set `Access-Control-Allow-Origin` header to All or specific sites required. .
 
 Supported Args:
 - *method*: _'GET'_ or _'POST'_
