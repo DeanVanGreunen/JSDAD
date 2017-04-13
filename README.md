@@ -12,7 +12,7 @@ JavaScript - Deans Anything Downloader
  - Full Control.
  
 ## The Function Usage Overview (Integration)
-Import the [JSDad.js](/jsdad.js) script
+Import the [JSDad.js](https://cdn.rawgit.com/DeanVanGreunen/JSDAD/master/jsdad.js) script
 ```javascript
 /* Call the Function Once JSDad.js has loaded*/
 AnythingDownloader(method, postdata, url, datatype, filename, mimetype, prevalidation, onprevalidationerror, postvalidation,  onpostvalidationerror);
