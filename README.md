@@ -2,8 +2,11 @@
 JavaScript - Deans Anything Downloader
 
 ## The What!
- - Simple, Light Weight, Fast, Multi Treading Safe, Multi Browser Support
-
+ - Simple, Light Weight, Standalone, Fast, Multi-Treading Safe, Multi Browser Support.
+ - Pre Data Validation, Post Data Validation.
+ - Error Validation Callbacks.
+ - Full Control.
+ 
 ## The Function Usage Overview (Integration)
 ```javascript
 /* Import the [JSDad.js](/jsdad.js) script*/
