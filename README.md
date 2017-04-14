@@ -62,3 +62,6 @@ AnythingDownloader(
     }
 );
 ```
+### Extras
+Author: [Dean Van Greunen](mailto:deanvg9000@gmail.com)
+Version: 1.0.0.0
